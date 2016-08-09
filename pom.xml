@@ -306,7 +306,7 @@ THE SOFTWARE.
         <plugin>
           <groupId>org.codehaus.gmaven</groupId>
           <artifactId>gmaven-plugin</artifactId>
-          <version>1.5-jenkins-3</version>
+          <version>1.5</version>
           <dependencies>
             <dependency><!-- this needs to be visible to Ant inside GMaven, so has to be a plugin dependency -->
               <groupId>org.apache.ant</groupId>
@@ -327,7 +327,7 @@ THE SOFTWARE.
             <dependency>
               <groupId>org.codehaus.gmaven.runtime</groupId>
               <artifactId>gmaven-runtime-2.0</artifactId>
-              <version>1.5-jenkins-3</version>
+              <version>1.5</version>
             </dependency>
           </dependencies>
           <configuration>
